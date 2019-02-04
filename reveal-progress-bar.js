@@ -3,8 +3,7 @@ const reveal_progress_bar = {
         if (!options.agenda) { return; }
 
         const agenda = options.agenda;
-
-        let insertionElement = options.slidesElement;
+        let insertionElement = options.insertionElement;
 
         if (!insertionElement && options.insertionSelector) {
             insertionElement = document.querySelector(options.insertionSelector);

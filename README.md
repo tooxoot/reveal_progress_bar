@@ -17,20 +17,21 @@ The options object has the following form:
 
 ```typescript
 interface options {
-    required agenda: [AgendaSection];
-    optional insertionSelector: string = '.slides > section';
-    optional insertToPosition: number = 0;
+    agenda: [AgendaSection];
+    insertionElement?: HTMLElement;
+    insertionSelector?: string = '.slides > section';
+    insertToPosition?: number = 0;
 }
 
 interface AgendaSection {
-    required id: string;
-    required title: string;
-    optional subsections: AgendaSubSection;
+    id: string;
+    title: string;
+    subsections?: AgendaSubSection;
 }
 
 interface AgendaSection {
-    required id: string;
-    required title: string;
+    id: string;
+    title: string;
 }
 ```
 
