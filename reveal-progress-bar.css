@@ -10,16 +10,9 @@
     grid-row: 1;
     align-self: center;
     font-size:0.7em;
-    /* color: #606060; */
-    color: #909090;
     white-space: nowrap;
     text-overflow: clip;
     overflow: hidden;
-}
-
-.progress-bar .progress-bar-entry-active {
-    /* color: #60a060; */
-    color: #f06060;
 }
 
 .progress-bar-hide {
